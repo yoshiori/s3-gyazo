@@ -1,4 +1,5 @@
 require "aws-sdk-core"
+require "tempfile"
 
 class S3::Gyazo::Client
   def self.run
