@@ -16,9 +16,9 @@ key|value
 -----|-----
 AWS_ACCESS_KEY_ID| my-access-key
 AWS_SECRET_ACCESS_KEY| secret
+S3_GAZO_REGION| s3 region
 S3_GAZO_BUCKET| s3 bucket name
 S3_GAZO_BASE_URL| base URL
-
 
 ### Use [envchain](https://github.com/sorah/envchain) (strongly recommended)
 
@@ -27,7 +27,8 @@ $ envchain --set aws AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY
 aws.AWS_ACCESS_KEY_ID: my-access-key
 aws.AWS_SECRET_ACCESS_KEY: secret
 
-$ envchain --set s3gazo S3_GAZO_BUCKET S3_GAZO_BASE_URL
+$ envchain --set s3gazo S3_GAZO_BUCKET S3_GAZO_BASE_URL S3_GAZO_REGION
+s3gazo.S3_GAZO_REGION: s3 region
 s3gazo.S3_GAZO_BUCKET: s3 bucket name
 s3gazo.S3_GAZO_BASE_URL: base URL
 ```
