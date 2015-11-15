@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require "s3/gyazo/client"
+require "s3/gyazo"
 S3::Gyazo::Client.run
